@@ -6,3 +6,23 @@
 
 # 385916 -> yes
 # 123456 -> no
+
+ticketNumber=int(input("Номер билета: "))
+def HappyOrNotHappy_Ticket(n):
+    b = n//1000
+    one = b%10
+    b=b//10
+    two = b%10
+    b=b//10
+    three = b
+    c = n%1000
+    four = c%10
+    c=c//10
+    five = c%10
+    c=c//10
+    six = c
+    if (one+two+three)==(four+five+six):
+        print ('Счастливый')
+    else:
+        print ('Обычный')
+HappyOrNotHappy_Ticket(ticketNumber)
