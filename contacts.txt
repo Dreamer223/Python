@@ -1,0 +1,1 @@
+& e:/Учеба/Python/.folder/Scripts/python.exe e:/Учеба/Python/HomeWork/hw21.py,& e:/Учеба/Python/.folder/Scripts/python.exe e:/Учеба/Python/HomeWork/hw21.py,88844
